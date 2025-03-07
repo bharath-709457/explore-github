@@ -9,6 +9,9 @@ public class CakeBaker {
         this.syrup = syrup;
     }
 
+
+
+
     public void bakeCake() {
         System.out.println("Baking cake with " + frost.getFrostingType() + " and " + syrup.getSyrupType());
     }
